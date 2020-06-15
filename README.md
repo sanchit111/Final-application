@@ -1,2 +1,1 @@
-# Final application
- 
+# React CRA - react-plotly.js - storybook Boiler
