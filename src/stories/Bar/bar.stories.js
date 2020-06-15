@@ -1,7 +1,6 @@
 import React from 'react';
 import Bar from './Bar-Chart';
 import Violin from './Violin-Chart';
-import Column from './Column-Chart';
 import Pair from './Paired';
 import Hist from './Histogram';
 import Population from './Pyramid';
@@ -18,7 +17,6 @@ decorators: [withKnobs] };
 
   export const Bar_Chart = () => <Bar />;
   export const Violin_Chart = () => <Violin/>;
-  export const Column_Chart = () => <Column />;
   export const Paired = () => <Pair/>;
   export const Histogram = () => <Hist />;
   export const Pyramid = () => <Population />;
